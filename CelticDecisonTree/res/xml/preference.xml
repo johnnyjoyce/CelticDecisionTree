@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   	<EditTextPreference
+		android:key="text1"
+		android:title="Name Entry Dialog"
+		android:summary="Click to pop up a field for name entry"
+		android:dialogTitle="Enter Your Name Please"/>
+   	<EditTextPreference
+		android:key="text2"
+		android:title="Address1 Entry Dialog"
+		android:summary="Click to pop up a field for address entry"
+		android:dialogTitle="Enter Your Name Please"/>
+   	<EditTextPreference
+		android:key="text3"
+		android:title="Address2 Entry Dialog"
+		android:summary="Click to pop up a field for address entry"
+		android:dialogTitle="Enter Your Name Please"/>
+   	
+   	<ListPreference
+			android:key="countyList"
+			android:title="Selection Dialog"
+			android:summary="Click to pop up a list of counties to choose from"
+			android:entries="@array/counties"
+			android:dialogTitle="Choose a County Please" />
+   	
+   	<EditTextPreference
+		android:key="text4"
+		android:title="Email Entry Dialog"
+		android:summary="Click to pop up a field for entry"
+		android:dialogTitle="Enter Your Name Please"/>
+   	
+	
+	
+    
+
+</PreferenceScreen>
